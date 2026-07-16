@@ -1,0 +1,25 @@
+# Sistema operacional e editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs e arquivos temporarios
+*.log
+tmp/
+temp/
+
+# Dependencias/builds antigos, caso sejam recriados por engano
+node_modules/
+dist/
+build/
+.next/
+.wrangler/
+
+# Segredos locais
+.env
+.env.*
+
+# Arquivos pessoais que nao devem ir para o site publico
+_rascunhos/
+_privado/
