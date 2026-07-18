@@ -4,10 +4,11 @@ Use este checklist antes de publicar o site da Dra. Mayara.
 
 ## Dados principais
 
-Atualize os mesmos dados em:
+Atualize os dados em:
 
-- `site/index.html`
-- `site/versao-referencia/index.html`
+```txt
+site/index.html
+```
 
 Campos para revisar:
 
@@ -33,7 +34,7 @@ Procure por:
 Substitua pelo telefone real no formato internacional, sem espacos:
 
 ```txt
-55DDDNÚMERO
+55DDDNUMERO
 ```
 
 Exemplo ficticio:
@@ -66,7 +67,7 @@ href="https://www.instagram.com/perfil-da-dra"
 
 ## Localizacao
 
-No botao e no rodape, troque `#localizacao` ou o endereco placeholder pelo link real do Google Maps.
+Troque o endereco placeholder e qualquer link de localizacao pelo link real do Google Maps.
 
 ## Imagens
 
@@ -80,7 +81,7 @@ Para trocar:
 
 1. Coloque a nova imagem em `site/images/`.
 2. Use um nome simples, sem espacos, por exemplo `dra-mayara-cardoso.jpg`.
-3. Atualize os caminhos nos dois HTMLs.
+3. Atualize o caminho em `site/index.html`.
 
 Locais para procurar:
 
@@ -103,21 +104,12 @@ O favicon fica em:
 site/favicon.svg
 ```
 
-Voce pode substituir por um arquivo da identidade visual da Dra. Mayara mantendo o mesmo nome.
-
-## Versoes do site
-
-- Versao principal: `site/index.html`
-- Versao alternativa: `site/versao-referencia/index.html`
-
-A versao alternativa continua disponivel para a Dra. Mayara comparar a identidade visual.
+Ele ja esta na paleta vinho e dourado. Voce pode substituir por um arquivo da identidade visual oficial da Dra. Mayara mantendo o mesmo nome.
 
 ## Aviso medico
 
-O rodape inclui um aviso institucional:
+Inclua ou mantenha um aviso institucional conforme a orientacao profissional da medica, por exemplo:
 
 ```txt
 Informacoes institucionais. Este site nao substitui consulta medica.
 ```
-
-Mantenha ou ajuste esse texto conforme a orientacao profissional da medica.

@@ -39,511 +39,6 @@ img {
   max-width: 100%;
 }
 
-.site-page {
-  min-height: 100vh;
-  overflow-x: hidden;
-}
-
-.hero {
-  background-position: center;
-  background-size: cover;
-  color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  min-height: 84svh;
-  padding: 24px;
-}
-
-.site-header {
-  align-items: center;
-  display: flex;
-  gap: 24px;
-  justify-content: space-between;
-  margin: 0 auto;
-  max-width: 1180px;
-  width: 100%;
-}
-
-.brand {
-  align-items: center;
-  display: flex;
-  gap: 12px;
-  min-width: 220px;
-}
-
-.brand-mark {
-  align-items: center;
-  background: rgba(255, 255, 255, 0.14);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 8px;
-  display: inline-flex;
-  font-weight: 800;
-  height: 44px;
-  justify-content: center;
-  width: 44px;
-}
-
-.brand strong,
-.brand small {
-  display: block;
-}
-
-.brand small {
-  color: rgba(255, 255, 255, 0.74);
-  font-size: 0.82rem;
-  margin-top: 2px;
-}
-
-.nav-links {
-  align-items: center;
-  display: flex;
-  gap: 24px;
-  justify-content: center;
-}
-
-.nav-links a {
-  color: rgba(255, 255, 255, 0.84);
-  font-size: 0.95rem;
-}
-
-.nav-links a:hover,
-.footer-links a:hover {
-  color: #ffffff;
-}
-
-.header-cta,
-.button,
-.floating-whatsapp {
-  align-items: center;
-  border-radius: 8px;
-  display: inline-flex;
-  font-weight: 700;
-  justify-content: center;
-  min-height: 48px;
-  transition: background-color 160ms ease, color 160ms ease, border-color 160ms ease, transform 160ms ease;
-  white-space: nowrap;
-}
-
-.header-cta {
-  background: #ffffff;
-  color: var(--deep);
-  padding: 0 20px;
-}
-
-.header-cta:hover,
-.button:hover,
-.floating-whatsapp:hover {
-  transform: translateY(-1px);
-}
-
-.hero-content {
-  margin: auto;
-  max-width: 1180px;
-  padding: 76px 0 52px;
-  width: 100%;
-}
-
-.eyebrow,
-.section-kicker {
-  color: var(--rose);
-  font-size: 0.78rem;
-  font-weight: 800;
-  margin: 0 0 14px;
-  text-transform: uppercase;
-}
-
-.hero .eyebrow {
-  color: #ffccd4;
-}
-
-.hero h1 {
-  font-size: clamp(2.8rem, 8vw, 4.7rem);
-  line-height: 1;
-  margin: 0;
-  max-width: 680px;
-}
-
-.hero-lead {
-  font-size: 1.55rem;
-  line-height: 1.45;
-  margin: 24px 0 0;
-  max-width: 650px;
-}
-
-.hero-copy {
-  color: rgba(255, 255, 255, 0.82);
-  font-size: 1.05rem;
-  line-height: 1.8;
-  margin: 18px 0 0;
-  max-width: 610px;
-}
-
-.hero-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin-top: 32px;
-}
-
-.button {
-  border: 1px solid transparent;
-  padding: 0 22px;
-}
-
-.button.primary {
-  background: var(--accent);
-  color: #ffffff;
-}
-
-.button.primary:hover {
-  background: var(--accent-dark);
-}
-
-.button.secondary {
-  background: rgba(255, 255, 255, 0.12);
-  border-color: rgba(255, 255, 255, 0.32);
-  color: #ffffff;
-}
-
-.button.secondary.dark {
-  background: transparent;
-  border-color: rgba(255, 255, 255, 0.36);
-}
-
-.hero-highlights {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  list-style: none;
-  margin: 32px 0 0;
-  max-width: 720px;
-  padding: 0;
-}
-
-.hero-highlights li {
-  background: rgba(255, 255, 255, 0.12);
-  border: 1px solid rgba(255, 255, 255, 0.24);
-  border-radius: 8px;
-  color: rgba(255, 255, 255, 0.88);
-  padding: 10px 12px;
-}
-
-.quick-facts {
-  background: var(--surface);
-  border-bottom: 1px solid var(--line);
-}
-
-.section-shell {
-  margin: 0 auto;
-  max-width: 1180px;
-  padding-left: 24px;
-  padding-right: 24px;
-  width: 100%;
-}
-
-.facts-grid {
-  display: grid;
-  gap: 1px;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  padding-bottom: 0;
-  padding-top: 0;
-}
-
-.fact {
-  min-height: 112px;
-  padding: 28px 22px;
-}
-
-.fact + .fact {
-  border-left: 1px solid var(--line);
-}
-
-.fact span {
-  color: var(--muted);
-  display: block;
-  font-size: 0.86rem;
-  margin-bottom: 8px;
-}
-
-.fact strong {
-  color: var(--ink);
-  display: block;
-  font-size: 1.18rem;
-}
-
-.section {
-  padding: 88px 0;
-}
-
-.section-muted {
-  background: var(--soft);
-}
-
-.section-contrast {
-  background: var(--deep);
-  color: #ffffff;
-}
-
-.two-column,
-.benefit-layout,
-.faq-layout,
-.telehealth-inner,
-.footer-grid {
-  display: grid;
-  gap: 48px;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-}
-
-.section-copy h2,
-.section-heading h2,
-.telehealth h2,
-.final-cta h2 {
-  color: var(--ink);
-  font-size: clamp(2.05rem, 5vw, 2.7rem);
-  line-height: 1.12;
-  margin: 0;
-  max-width: 760px;
-}
-
-.section-contrast .section-heading h2,
-.section-contrast .section-heading p,
-.final-cta h2,
-.final-cta p {
-  color: #ffffff;
-}
-
-.section-copy p,
-.section-heading p,
-.telehealth p,
-.final-cta p {
-  color: var(--muted);
-  font-size: 1.02rem;
-  line-height: 1.8;
-  margin: 20px 0 0;
-  max-width: 650px;
-}
-
-.section-contrast .section-heading p {
-  color: rgba(255, 255, 255, 0.72);
-}
-
-.credential-box {
-  background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  display: grid;
-  gap: 6px;
-  margin-top: 28px;
-  padding: 22px;
-}
-
-.credential-box span {
-  color: var(--muted);
-}
-
-.profile-panel {
-  align-self: stretch;
-  background: var(--sky);
-  border-radius: 8px;
-  min-height: 420px;
-  overflow: hidden;
-  position: relative;
-}
-
-.profile-panel img {
-  height: 100%;
-  object-fit: cover;
-  width: 100%;
-}
-
-.profile-note {
-  background: rgba(255, 255, 255, 0.9);
-  border-radius: 8px;
-  bottom: 18px;
-  color: var(--ink);
-  display: grid;
-  gap: 4px;
-  left: 18px;
-  padding: 16px 18px;
-  position: absolute;
-}
-
-.profile-note span {
-  color: var(--muted);
-}
-
-.section-heading {
-  margin-bottom: 38px;
-}
-
-.section-heading.compact {
-  margin-bottom: 0;
-}
-
-.card-grid,
-.process-grid,
-.benefit-grid {
-  display: grid;
-  gap: 16px;
-}
-
-.card-grid {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.care-card,
-.benefit-card,
-.process-card {
-  border-radius: 8px;
-  padding: 24px;
-}
-
-.care-card {
-  background: var(--surface);
-  border: 1px solid rgba(167, 51, 63, 0.16);
-}
-
-.care-card h3,
-.benefit-card h3,
-.process-card h3 {
-  font-size: 1.18rem;
-  margin: 0;
-}
-
-.care-card p,
-.benefit-card p,
-.process-card p {
-  color: var(--muted);
-  line-height: 1.7;
-  margin: 12px 0 0;
-}
-
-.benefit-grid {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.benefit-card {
-  background: #ffffff;
-  border: 1px solid var(--line);
-}
-
-.process-grid {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
-.process-card {
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.14);
-}
-
-.process-card span {
-  color: #ffccd4;
-  display: block;
-  font-weight: 800;
-  margin-bottom: 36px;
-}
-
-.process-card p {
-  color: rgba(255, 255, 255, 0.72);
-}
-
-.telehealth {
-  background: #fff6f6;
-}
-
-.telehealth-inner {
-  align-items: center;
-}
-
-.telehealth .button {
-  justify-self: end;
-}
-
-.faq-list {
-  display: grid;
-  gap: 12px;
-}
-
-.faq-list details {
-  background: #ffffff;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  padding: 20px 22px;
-}
-
-.faq-list summary {
-  color: var(--ink);
-  cursor: pointer;
-  font-weight: 800;
-}
-
-.faq-list p {
-  color: var(--muted);
-  line-height: 1.7;
-  margin: 14px 0 0;
-}
-
-.final-cta {
-  background: linear-gradient(90deg, rgba(48, 18, 22, 0.96), rgba(116, 28, 42, 0.92)), var(--deep);
-  color: #ffffff;
-  padding: 86px 0;
-  text-align: center;
-}
-
-.final-cta-inner {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-}
-
-.final-cta p {
-  color: rgba(255, 255, 255, 0.78);
-}
-
-.center-actions {
-  justify-content: center;
-}
-
-.site-footer {
-  background: #211014;
-  color: rgba(255, 255, 255, 0.78);
-  padding: 36px 0;
-}
-
-.footer-grid {
-  align-items: center;
-}
-
-.site-footer strong {
-  color: #ffffff;
-}
-
-.site-footer p {
-  margin: 6px 0 0;
-}
-
-.legal-note {
-  font-size: 0.88rem;
-}
-
-.footer-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 18px;
-  justify-content: flex-end;
-}
-
-.floating-whatsapp {
-  background: var(--accent);
-  bottom: 22px;
-  box-shadow: 0 18px 40px rgba(116, 28, 42, 0.26);
-  color: #ffffff;
-  padding: 0 18px;
-  position: fixed;
-  right: 22px;
-  z-index: 20;
-}
-
 .reference-page {
   --ref-ink: #2d1a1f;
   --ref-muted: #78666a;
@@ -995,41 +490,26 @@ img {
   color: #ffffff;
   font-weight: 800;
 }
-
 @media (max-width: 980px) {
-  .site-header,
   .ref-header {
     align-items: flex-start;
     flex-wrap: wrap;
   }
 
-  .nav-links,
   .ref-nav {
     order: 3;
     width: 100%;
   }
 
-  .two-column,
-  .benefit-layout,
-  .faq-layout,
-  .telehealth-inner,
-  .footer-grid,
   .ref-split,
   .ref-faq-layout,
   .ref-tele-card {
     grid-template-columns: 1fr;
   }
 
-  .card-grid,
-  .benefit-grid,
-  .process-grid,
   .ref-card-grid,
   .ref-trust-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .telehealth .button {
-    justify-self: start;
   }
 
   .ref-trust-grid article + article {
@@ -1038,86 +518,48 @@ img {
 }
 
 @media (max-width: 700px) {
-  .hero,
   .ref-hero {
     min-height: 86svh;
     padding: 18px;
   }
 
-  .brand {
-    min-width: 0;
-  }
-
-  .brand small,
-  .nav-links,
   .ref-nav {
     display: none;
   }
 
-  .header-cta,
   .ref-header-button {
     min-height: 44px;
     padding: 0 14px;
   }
 
-  .hero-content,
   .ref-hero-content {
     padding: 58px 0 34px;
   }
 
-  .hero-lead,
   .ref-hero-title {
     font-size: 1.2rem;
   }
 
-  .hero-copy {
-    font-size: 1rem;
-  }
-
-  .hero-actions,
-  .center-actions,
   .ref-actions {
     align-items: stretch;
     flex-direction: column;
   }
 
-  .button,
   .ref-button {
     width: 100%;
   }
 
-  .facts-grid,
-  .card-grid,
-  .benefit-grid,
-  .process-grid,
   .ref-trust-grid,
   .ref-card-grid {
     grid-template-columns: 1fr;
   }
 
-  .fact + .fact {
-    border-left: 0;
-    border-top: 1px solid var(--line);
-  }
-
-  .section,
   .ref-section {
     padding: 64px 0;
   }
 
-  .profile-panel,
   .ref-photo-panel {
     min-height: 330px;
-  }
-
-  .footer-links {
-    justify-content: flex-start;
-  }
-
-  .floating-whatsapp {
-    bottom: 14px;
-    min-height: 46px;
-    right: 14px;
   }
 
   .ref-tele-card {
