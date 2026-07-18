@@ -12,6 +12,42 @@
     <link rel="stylesheet" href="assets/styles.css">
   </head>
   <body>
+    <svg class="icon-sprite" aria-hidden="true" focusable="false">
+      <symbol id="icon-whatsapp" viewBox="0 0 24 24">
+        <path d="M5.3 19.1l.8-3.1a7.2 7.2 0 1 1 2.1 2.1l-2.9 1z"></path>
+        <path d="M9.3 8.6c.2-.5.5-.6.8-.6h.5c.2 0 .4.1.5.4l.7 1.6c.1.3 0 .5-.2.7l-.4.5c.7 1.3 1.6 2.2 2.9 2.9l.6-.7c.2-.2.4-.2.7-.1l1.5.7c.3.1.4.3.4.6 0 .8-.6 1.6-1.4 1.8-2.3.3-6.6-2.2-8-5.8-.4-.9.1-1.6.7-2z"></path>
+      </symbol>
+      <symbol id="icon-doctoralia" viewBox="0 0 24 24">
+        <path d="M5.5 4.8h5.3a7.2 7.2 0 0 1 0 14.4H5.5z"></path>
+        <path d="M9.1 9.1v5.8"></path>
+        <path d="M6.9 12h4.4"></path>
+        <path d="M17.2 7.9v5.6"></path>
+        <path d="M14.4 10.7H20"></path>
+      </symbol>
+      <symbol id="icon-instagram" viewBox="0 0 24 24">
+        <rect x="3.5" y="3.5" width="17" height="17" rx="5"></rect>
+        <circle cx="12" cy="12" r="4"></circle>
+        <circle cx="17.3" cy="6.8" r="1"></circle>
+      </symbol>
+      <symbol id="icon-tiktok" viewBox="0 0 24 24">
+        <path d="M14.2 4v9.2a4.2 4.2 0 1 1-3.2-4.1"></path>
+        <path d="M14.2 4c0.8 2.7 2.5 4.4 5.3 4.7"></path>
+      </symbol>
+      <symbol id="icon-linkedin" viewBox="0 0 24 24">
+        <path d="M6.6 10v8.5"></path>
+        <path d="M11 18.5V10"></path>
+        <path d="M11 13.7c0-2.4 1.5-3.9 3.7-3.9 2.3 0 3.7 1.5 3.7 4.2v4.5"></path>
+        <circle cx="6.6" cy="6.2" r="1.5"></circle>
+      </symbol>
+      <symbol id="icon-google-maps" viewBox="0 0 24 24">
+        <path d="M12 21s6.1-5.3 6.1-11a6.1 6.1 0 0 0-12.2 0c0 5.7 6.1 11 6.1 11z"></path>
+        <circle cx="12" cy="10" r="2.3"></circle>
+      </symbol>
+      <symbol id="icon-privacy" viewBox="0 0 24 24">
+        <path d="M12 3.8 5.7 6.1v5.4c0 4 2.6 7.5 6.3 8.8 3.7-1.3 6.3-4.8 6.3-8.8V6.1z"></path>
+        <path d="m9.4 12.2 1.7 1.7 3.6-3.9"></path>
+      </symbol>
+    </svg>
     <main class="site-page">
       <section class="hero" id="inicio">
         <header class="site-header" aria-label="Cabeçalho do site">
@@ -32,7 +68,8 @@
           </nav>
 
           <a class="header-cta" href="https://www.doctoralia.com.br/mayara-cardoso/hematologista/aracaju" target="_blank" rel="noopener noreferrer">
-            Agendar
+            <svg class="link-icon" aria-hidden="true" focusable="false"><use href="#icon-doctoralia"></use></svg>
+            <span>Agendar</span>
           </a>
         </header>
 
@@ -47,10 +84,12 @@
 
             <div class="hero-actions" aria-label="Canais de agendamento">
               <a class="button primary" href="https://www.doctoralia.com.br/mayara-cardoso/hematologista/aracaju" target="_blank" rel="noopener noreferrer">
-                Agendar consulta
+                <svg class="link-icon" aria-hidden="true" focusable="false"><use href="#icon-doctoralia"></use></svg>
+                <span>Agendar consulta</span>
               </a>
               <a class="button secondary" href="https://wa.me/551340426210?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta%20com%20a%20Dra.%20Mayara%20Cardoso." target="_blank" rel="noopener noreferrer">
-                WhatsApp
+                <svg class="link-icon" aria-hidden="true" focusable="false"><use href="#icon-whatsapp"></use></svg>
+                <span>WhatsApp</span>
               </a>
             </div>
 
@@ -323,10 +362,12 @@
           </div>
           <div class="review-cards">
             <a href="https://www.doctoralia.com.br/mayara-cardoso/hematologista/aracaju" target="_blank" rel="noopener noreferrer">
+              <svg class="link-icon" aria-hidden="true" focusable="false"><use href="#icon-doctoralia"></use></svg>
               <strong>Doctoralia</strong>
               <span>Ver perfil e avaliações</span>
             </a>
             <a href="https://www.google.com/maps/search/?api=1&query=Av.%20Conselheiro%20Nebias%2C%20703%20Cj.%202102%20Boqueirao%20Santos%20SP%2011045-003" target="_blank" rel="noopener noreferrer">
+              <svg class="link-icon" aria-hidden="true" focusable="false"><use href="#icon-google-maps"></use></svg>
               <strong>Google</strong>
               <span>Ver localização e avaliações</span>
             </a>
@@ -392,10 +433,12 @@
           </p>
           <div class="hero-actions center-actions">
             <a class="button primary light" href="https://www.doctoralia.com.br/mayara-cardoso/hematologista/aracaju" target="_blank" rel="noopener noreferrer">
-              Agendar on-line
+              <svg class="link-icon" aria-hidden="true" focusable="false"><use href="#icon-doctoralia"></use></svg>
+              <span>Agendar on-line</span>
             </a>
             <a class="button secondary dark" href="https://wa.me/551340426210?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta%20com%20a%20Dra.%20Mayara%20Cardoso." target="_blank" rel="noopener noreferrer">
-              WhatsApp
+              <svg class="link-icon" aria-hidden="true" focusable="false"><use href="#icon-whatsapp"></use></svg>
+              <span>WhatsApp</span>
             </a>
           </div>
         </div>
@@ -420,34 +463,34 @@
             <p>Av. Conselheiro Nébias, 703 - Cj. 2102 - Boqueirão, Santos - SP, 11045-003</p>
           </div>
           <div class="footer-links" aria-label="Links de contato">
-            <a href="https://wa.me/551340426210?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta%20com%20a%20Dra.%20Mayara%20Cardoso." target="_blank" rel="noopener noreferrer">WhatsApp</a>
+            <a href="https://wa.me/551340426210?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta%20com%20a%20Dra.%20Mayara%20Cardoso." target="_blank" rel="noopener noreferrer">
+              <svg class="link-icon" aria-hidden="true" focusable="false"><use href="#icon-whatsapp"></use></svg>
+              <span>WhatsApp</span>
+            </a>
             <a class="social-link" href="https://www.instagram.com/dramayara.clinic/" aria-label="Instagram da Dra. Mayara Cardoso" target="_blank" rel="noopener noreferrer">
-              <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-                <rect x="3.5" y="3.5" width="17" height="17" rx="5"></rect>
-                <circle cx="12" cy="12" r="4"></circle>
-                <circle cx="17.3" cy="6.8" r="1"></circle>
-              </svg>
+              <svg class="link-icon" aria-hidden="true" focusable="false"><use href="#icon-instagram"></use></svg>
               <span>Instagram</span>
             </a>
             <a class="social-link" href="https://www.tiktok.com/@dramayara.clinic" aria-label="TikTok da Dra. Mayara Cardoso" target="_blank" rel="noopener noreferrer">
-              <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-                <path d="M14.2 4v9.2a4.2 4.2 0 1 1-3.2-4.1"></path>
-                <path d="M14.2 4c0.8 2.7 2.5 4.4 5.3 4.7"></path>
-              </svg>
+              <svg class="link-icon" aria-hidden="true" focusable="false"><use href="#icon-tiktok"></use></svg>
               <span>TikTok</span>
             </a>
             <a class="social-link" href="https://www.linkedin.com/in/mayara-cardoso-50a71523a/" aria-label="LinkedIn da Dra. Mayara Cardoso" target="_blank" rel="noopener noreferrer">
-              <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-                <path d="M6.6 10v8.5"></path>
-                <path d="M11 18.5V10"></path>
-                <path d="M11 13.7c0-2.4 1.5-3.9 3.7-3.9 2.3 0 3.7 1.5 3.7 4.2v4.5"></path>
-                <circle cx="6.6" cy="6.2" r="1.5"></circle>
-              </svg>
+              <svg class="link-icon" aria-hidden="true" focusable="false"><use href="#icon-linkedin"></use></svg>
               <span>LinkedIn</span>
             </a>
-            <a href="https://www.doctoralia.com.br/mayara-cardoso/hematologista/aracaju" target="_blank" rel="noopener noreferrer">Doctoralia</a>
-            <a href="https://www.google.com/maps/search/?api=1&query=Av.%20Conselheiro%20Nebias%2C%20703%20Cj.%202102%20Boqueirao%20Santos%20SP%2011045-003" target="_blank" rel="noopener noreferrer">Google Maps</a>
-            <a href="#privacidade">LGPD e Política de Privacidade</a>
+            <a href="https://www.doctoralia.com.br/mayara-cardoso/hematologista/aracaju" target="_blank" rel="noopener noreferrer">
+              <svg class="link-icon" aria-hidden="true" focusable="false"><use href="#icon-doctoralia"></use></svg>
+              <span>Doctoralia</span>
+            </a>
+            <a href="https://www.google.com/maps/search/?api=1&query=Av.%20Conselheiro%20Nebias%2C%20703%20Cj.%202102%20Boqueirao%20Santos%20SP%2011045-003" target="_blank" rel="noopener noreferrer">
+              <svg class="link-icon" aria-hidden="true" focusable="false"><use href="#icon-google-maps"></use></svg>
+              <span>Google Maps</span>
+            </a>
+            <a href="#privacidade">
+              <svg class="link-icon" aria-hidden="true" focusable="false"><use href="#icon-privacy"></use></svg>
+              <span>LGPD e Política de Privacidade</span>
+            </a>
           </div>
         </div>
       </footer>
@@ -456,8 +499,9 @@
         class="floating-whatsapp"
         href="https://wa.me/551340426210?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta%20com%20a%20Dra.%20Mayara%20Cardoso."
         aria-label="Agendar consulta pelo WhatsApp"
-       target="_blank" rel="noopener noreferrer">
-        WhatsApp
+        target="_blank" rel="noopener noreferrer">
+        <svg class="link-icon" aria-hidden="true" focusable="false"><use href="#icon-whatsapp"></use></svg>
+        <span>WhatsApp</span>
       </a>
     </main>
   </body>
