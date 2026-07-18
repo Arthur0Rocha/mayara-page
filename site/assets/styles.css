@@ -23,7 +23,10 @@ html {
 }
 
 .icon-sprite {
-  display: none;
+  height: 0;
+  overflow: hidden;
+  position: absolute;
+  width: 0;
 }
 
 body {
@@ -741,14 +744,39 @@ img {
 }
 
 .link-icon {
+  --icon-size: 19px;
+  display: block;
   fill: none;
-  flex: 0 0 auto;
-  height: 18px;
+  flex: 0 0 var(--icon-size);
+  height: var(--icon-size);
+  max-height: var(--icon-size);
+  max-width: var(--icon-size);
+  min-height: var(--icon-size);
+  min-width: var(--icon-size);
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke-width: 1.9;
-  width: 18px;
+  stroke-width: 2;
+  vector-effect: non-scaling-stroke;
+  width: var(--icon-size);
+}
+
+.header-cta .link-icon,
+.floating-whatsapp .link-icon {
+  --icon-size: 18px;
+}
+
+.footer-links .link-icon {
+  --icon-size: 20px;
+}
+
+.button .link-icon {
+  --icon-size: 20px;
+}
+
+.review-cards .link-icon {
+  --icon-size: 24px;
+  margin-bottom: 2px;
 }
 
 .floating-whatsapp {
@@ -843,6 +871,17 @@ img {
     width: 100%;
   }
 
+  .header-cta .link-icon,
+  .button .link-icon,
+  .footer-links .link-icon,
+  .floating-whatsapp .link-icon {
+    --icon-size: 16px;
+  }
+
+  .review-cards .link-icon {
+    --icon-size: 20px;
+  }
+
   .hero-credentials,
   .footer-links {
     align-items: stretch;
@@ -884,7 +923,8 @@ img {
 
   .floating-whatsapp {
     bottom: 14px;
-    min-height: 46px;
+    min-height: 44px;
+    padding: 0 14px;
     right: 14px;
   }
 }
