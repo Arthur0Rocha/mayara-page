@@ -1,6 +1,6 @@
 # Site da Dra. Mayara Cardoso
 
-Site institucional estatico em portugues para a Dra. Mayara Cardoso, hematologista.
+Site institucional estatico em portugues para a Dra. Mayara Cardoso, hematologista em Santos-SP.
 
 O projeto usa apenas HTML e CSS. Nao ha servidor, banco de dados, framework JavaScript, Worker ou etapa obrigatoria de build.
 
@@ -8,10 +8,27 @@ O projeto usa apenas HTML e CSS. Nao ha servidor, banco de dados, framework Java
 
 - `site/index.html`: pagina unica do site.
 - `site/assets/styles.css`: estilos do site.
-- `site/images/`: imagens publicas usadas pelo site.
+- `site/images/`: imagens publicas em WebP usadas pelo site, rastreadas por Git LFS.
 - `site/favicon.svg`: favicon em vinho e dourado.
 - `.github/workflows/deploy-github-pages.yml`: publicacao automatica no GitHub Pages.
 - `PERSONALIZACAO.md`: checklist para trocar textos, contatos e imagens da Dra. Mayara.
+
+## Conteudo atual
+
+A pagina inclui:
+
+- Hero com chamada principal e botoes para Doctoralia e WhatsApp.
+- Cards de destaque para anemia, hemograma, vitaminas/pos-bariatrica e saude metabolica.
+- Sobre mim em blocos.
+- Galeria com as 9 imagens profissionais em WebP.
+- Formacao academica.
+- Diferenciais.
+- Areas de atuacao.
+- Como funciona a consulta.
+- Depoimentos com links para Doctoralia e Google.
+- Blog com temas sugeridos.
+- FAQ.
+- Rodape com endereco, redes sociais, Doctoralia, Google Maps, LGPD, CRM e RQE.
 
 ## Visualizar localmente
 
@@ -45,17 +62,3 @@ Ao criar o projeto no Cloudflare Pages:
 - Production branch: `main`.
 
 O Cloudflare publicara o conteudo da pasta `site` em um dominio `*.pages.dev`.
-
-## Antes de publicar
-
-Atualize os dados reais da Dra. Mayara em `site/index.html`:
-
-- CRM e RQE.
-- Cidade, endereco e mapa.
-- WhatsApp.
-- Instagram.
-- Foto profissional ou imagem do consultorio.
-- Areas de atendimento confirmadas pela medica.
-- Regras de convenio, particular ou reembolso.
-
-Leia `PERSONALIZACAO.md` antes de publicar.
