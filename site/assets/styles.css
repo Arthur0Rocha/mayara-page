@@ -433,6 +433,11 @@ img {
   color: #ffffff;
 }
 
+.ref-final h2 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .ref-tele-card p {
   color: rgba(255, 255, 255, 0.76);
 }
