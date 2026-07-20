@@ -20,7 +20,7 @@ A pagina inclui:
 - Hero com chamada principal e botoes para Doctoralia e WhatsApp.
 - Cards de destaque para anemia, hemograma, vitaminas/pos-bariatrica e saude metabolica.
 - Sobre mim em blocos.
-- Galeria com as 9 imagens profissionais em WebP.
+- Galeria com imagens profissionais aprovadas em WebP.
 - Formacao academica.
 - Diferenciais.
 - Areas de atuacao.

@@ -23,10 +23,9 @@ Dados atuais ja aplicados:
 
 ## Imagens
 
-As 9 imagens recebidas foram convertidas para WebP, renomeadas com nomes semânticos e publicadas em:
+As imagens aprovadas para publicação foram convertidas para WebP, renomeadas com nomes semânticos e publicadas em:
 
 ```txt
-site/images/dra-mayara-cardoso-hero.webp
 site/images/dra-mayara-cardoso-sobre.webp
 site/images/dra-mayara-cardoso-atendimento-hematologia.webp
 site/images/dra-mayara-cardoso-consultorio-santos-01.webp
@@ -37,9 +36,9 @@ site/images/dra-mayara-cardoso-retrato-profissional-02.webp
 site/images/dra-mayara-cardoso-retrato-profissional-03.webp
 ```
 
-Todas aparecem no site: duas nas seções principais e as nove na Galeria.
+A foto principal usa `site/images/dra-mayara-cardoso-retrato-profissional-03.webp`. As demais imagens aprovadas aparecem na Galeria.
 
-Os JFIF originais ficaram guardados localmente em `_rascunhos/imagens-originais-jfif/`, fora da publicação do site.
+Os JFIF originais ficaram guardados localmente em `_rascunhos/imagens-originais-jfif/`, fora da publicação do site. A imagem `dra-mayara-cardoso-hero.webp` foi retirada de `site/images/` e mantida em `_rascunhos/imagens-nao-publicar/`, pois não deve ser publicada enquanto não houver liberação da Dra. Mayara.
 
 As imagens publicadas são rastreadas por Git LFS. Ao trocar ou adicionar novas imagens, prefira WebP e mantenha nomes descritivos, sem espaços.
 
